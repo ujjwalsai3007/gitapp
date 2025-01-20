@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "46373312007",
+    "project_id": "gitapp-b59d2",
+    "storage_bucket": "gitapp-b59d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46373312007:android:135ae75686e85f3bc5bca2",
+        "android_client_info": {
+          "package_name": "com.example.gitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46373312007-c4520tsi3j6t2aoj4p2hks3am8qk4hnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gitapp",
+            "certificate_hash": "09d0e921a537fdc35cc4dc1d9d0efa145c2b201f"
+          }
+        },
+        {
+          "client_id": "46373312007-e5at7gf9puu9k6j9hcffgjer92bcm3pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfnk-895jJghvFkuq_u9Lh8o8sBFXvUN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46373312007-e5at7gf9puu9k6j9hcffgjer92bcm3pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
