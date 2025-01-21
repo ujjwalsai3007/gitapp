@@ -43,6 +43,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    testOptions {
+        unitTests.isIncludeAndroidResources = false
+    }
 }
 
 dependencies {
@@ -80,4 +84,15 @@ dependencies {
 
     // Kotlin Coroutine Support (if needed)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // AndroidX Test Core library
+    androidTestImplementation("androidx.test:core:1.5.0")
+    // AndroidX Test Runner library
+    androidTestImplementation("androidx.test:runner:1.5.0")
+    // AndroidX Test Rules library
+    androidTestImplementation("androidx.test:rules:1.5.0")
+    // AndroidX Test JUnit Extensions
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    // AndroidX Test Espresso
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
